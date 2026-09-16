@@ -1,6 +1,6 @@
 # Development and Evaluation of Target-Specific Machine-Learning Scoring Functions for Monoamine Oxidase B
 
-Code accompanying the manuscript "Development and Evaluation of Target-Specific Machine-Learning Scoring Functions for Monoamine Oxidase B" (Elsabbagh, [year]). This repository contains the scripts used to build, evaluate, and analyze target-specific machine-learning scoring functions (ML SFs) for human MAO-B, following the general protocol of Tran-Nguyen et al. (2023) and directly informed by Caba et al. (2024) and James & Ballester (2026).
+Code accompanying the manuscript "Development and Evaluation of Target-Specific Machine-Learning Scoring Functions for Monoamine Oxidase B" (Elsabbagh, [year]). This repository contains the scripts used to build, evaluate, and analyze target-specific machine-learning scoring functions (ML SFs) for human MAO-B. 
 
 ## Overview
 
@@ -48,12 +48,4 @@ Raw and intermediate data files (curated bioactivity datasets, docked poses, ful
 - `model_training_testing/` includes one representative baseline and tuning script per algorithm (RF, XGB, SVM, ANN, DNN); the remaining algorithm/task/feature combinations reported in the manuscript follow an identical structure, differing only in the model class and hyperparameter search space (see manuscript Table 2 for search spaces).
 - `metrics_and_figures/plot_style.py` defines the shared visual style (colors, line styles, formatting) used consistently across every figure in the manuscript.
 
-## Citation
 
-If you use this code, please cite:
-
-[Full citation, once published]
-
-## License
-
-See `LICENSE.txt`.
